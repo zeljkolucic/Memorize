@@ -27,7 +27,8 @@ struct MemoryGame<CardContent> where CardContent: Equatable {
         cards.shuffle()
     }
     
-    struct Card: Equatable {
+    struct Card: Identifiable, Equatable {
+        let id = UUID()
         var isFaceUp = true
         var isMatched = false
         let content: CardContent
