@@ -19,8 +19,9 @@ struct MemoryGame<CardContent> where CardContent: Equatable {
         }
     }
     
-    func choose(card: Card) {
-        
+    mutating func choose(card: Card) {
+        guard let chosenIndex = cards.firstIndex(where: { $0.id == card.id }) else { return }
+        cards[chosenIndex].isFaceUp.toggle()
     }
     
     mutating func shuffle() {
