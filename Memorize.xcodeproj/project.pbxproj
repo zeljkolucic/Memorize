@@ -13,6 +13,7 @@
 		E42B7CE12AF636C40076D9B5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E42B7CE02AF636C40076D9B5 /* Preview Assets.xcassets */; };
 		E42B7D042AF82FE90076D9B5 /* MemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42B7D032AF82FE90076D9B5 /* MemoryGame.swift */; };
 		E42B7D062AF831B80076D9B5 /* EmojiMemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42B7D052AF831B80076D9B5 /* EmojiMemoryGame.swift */; };
+		E42B7D302B00DD960076D9B5 /* AspectVGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42B7D2F2B00DD960076D9B5 /* AspectVGrid.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		E42B7CE02AF636C40076D9B5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E42B7D032AF82FE90076D9B5 /* MemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGame.swift; sourceTree = "<group>"; };
 		E42B7D052AF831B80076D9B5 /* EmojiMemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGame.swift; sourceTree = "<group>"; };
+		E42B7D2F2B00DD960076D9B5 /* AspectVGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AspectVGrid.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				E42B7D032AF82FE90076D9B5 /* MemoryGame.swift */,
 				E42B7D052AF831B80076D9B5 /* EmojiMemoryGame.swift */,
 				E42B7CDB2AF636C30076D9B5 /* EmojiMemoryGameView.swift */,
+				E42B7D2F2B00DD960076D9B5 /* AspectVGrid.swift */,
 				E42B7CDD2AF636C40076D9B5 /* Assets.xcassets */,
 				E42B7CDF2AF636C40076D9B5 /* Preview Content */,
 			);
@@ -146,6 +149,7 @@
 				E42B7D062AF831B80076D9B5 /* EmojiMemoryGame.swift in Sources */,
 				E42B7CDC2AF636C30076D9B5 /* EmojiMemoryGameView.swift in Sources */,
 				E42B7CDA2AF636C30076D9B5 /* MemorizeApp.swift in Sources */,
+				E42B7D302B00DD960076D9B5 /* AspectVGrid.swift in Sources */,
 				E42B7D042AF82FE90076D9B5 /* MemoryGame.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
