@@ -45,11 +45,7 @@ struct EmojiMemoryGameView: View {
         AspectVGrid(viewModel.cards, aspectRatio: aspectRatio) { card in
             CardView(card)
                 .padding(spacing)
-                .overlay {
-                    withAnimation(.easeOut(duration: 1)) {
-                        FlyingNumber(number: scoreChange(causedBy: card))
-                    }
-                }
+                .overlay(FlyingNumber(number: scoreChange(causedBy: card)))
                 .onTapGesture {
                     withAnimation(.easeInOut(duration: 1)) {
                         let scoreBeforeChoosing = viewModel.score
